@@ -1,0 +1,89 @@
+.dialogs{
+    display: grid;
+     grid-template-columns: 2fr 10fr;
+    padding: 20px;
+}
+
+.dialogsItem {
+    padding: 10px;
+}
+
+.dialogsItem .active a .active {
+    color: #673ab7;
+}
+
+
+.dialogsItem .dialog{
+    margin-bottom: 10px;
+}
+
+
+a img{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    width: 40px;
+    height: 40px;
+    background-color: lightseagreen;
+    border-radius: 50%;
+}
+
+
+a{
+    position: relative;
+    padding-left: 50px;
+    font: 600 18px/45px 'Roboto', 'Candara Light';
+    color: #212121;
+    text-decoration: none;
+}
+
+
+.messages .dialog{
+    position: relative;
+    font: 600 16px/26px 'Roboto', 'Candara Light';
+    color: #212121;
+    padding-left: 40px;
+    margin-bottom: 10px;
+}
+.messages .dialog img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    background-color: lightseagreen;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+.messages{
+    padding: 10px;
+}
+
+.message{
+
+}
+
+.sendMessage{
+
+}
+
+/*textarea{
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    background-color: white;
+    width: 100%;
+    height: 40px;
+    resize: none;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}*/
+
+
+
+
+
